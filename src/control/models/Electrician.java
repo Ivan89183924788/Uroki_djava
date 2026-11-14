@@ -1,38 +1,17 @@
-package control.models;
-
-public class Electric implements Mechanic{
-    private String name;
-    private int opit;
-    private int razryad;
-
-    @Override
-    public String toString() {
-        return "Electic{" +
-                "name='" + name + '\'' +
-                ", opit=" + opit +
-                ", razryad=" + razryad +
-                '}';
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public int getOpit() {
-        return opit;
-    }
-
-    public int getRazryad() {
-        return razryad;
-    }
-
-    public Electric(String name, int opit, int razryad) {
-        this.name = name;
-        this.opit = opit;
-        this.razryad = razryad;
-    }
-    @Override
-    public void mechanic(){
-        System.out.println("Моторист делает двигатель, имя "+getName());
-    }
-}
+//package control.models;
+//
+//public class Electrician implements Mechanic {
+//    private final String name;
+//    public Electrician(String name) { this.name = name; }
+//
+//    @Override
+//    public String getRole() { return "Электрик"; }
+//
+//    @Override
+//    public void workOn(Vehicle vehicle) {
+//        System.out.println(name + " (электрик) проверяет проводку " + vehicle.getNomer());
+//        vehicle.diagnostic();
+//        // Электрики могут не делать полный ремонт, только диагностику в этой модели
+//        System.out.println(name + " завершил диагностику " + vehicle.getNomer());
+//    }
+//}

@@ -1,38 +1,17 @@
 //package control.models;
 //
-//public class Motorist implements Mechanic{
-//    private String name;
-//    private int opit;
-//    private int razryad;
+//public class EngineMechanic implements Mechanic {
+//    private final String name;
+//    public EngineMechanic(String name) { this.name = name; }
 //
 //    @Override
-//    public String toString() {
-//        return "Motorist{" +
-//                "name='" + name + '\'' +
-//                ", opit=" + opit +
-//                ", razryad=" + razryad +
-//                '}';
-//    }
+//    public String getRole() { return "Механик по двигателям"; }
 //
-//    public String getName() {
-//        return name;
-//    }
-//
-//    public int getOpit() {
-//        return opit;
-//    }
-//
-//    public int getRazryad() {
-//        return razryad;
-//    }
-//
-//    public Motorist(String name, int opit, int razryad) {
-//        this.name = name;
-//        this.opit = opit;
-//        this.razryad = razryad;
-//    }
 //    @Override
-//    public void mechanic(){
-//        System.out.println("Моторист делает двигатель, имя "+getName());
+//    public void workOn(Vehicle vehicle) {
+//        System.out.println(name + " (специалист по двигателям) приступил к работе над " + vehicle.getNomer());
+//        vehicle.diagnostic();
+//        vehicle.remont();
+//        System.out.println(name + " завершил работу над " + vehicle.getNomer());
 //    }
 //}

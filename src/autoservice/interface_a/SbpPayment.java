@@ -1,4 +1,4 @@
-//package pizza.interfaces;
+//package autoservice.interface_a;
 //
 //public class SbpPayment implements Payment {
 //    private final String phoneNumber; // номер телефона для СБП

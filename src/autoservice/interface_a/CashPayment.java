@@ -1,4 +1,4 @@
-//package pizza.interfaces;
+//package autoservice.interface_a;
 //
 //public class CashPayment implements Payment {
 //    private final String currency;

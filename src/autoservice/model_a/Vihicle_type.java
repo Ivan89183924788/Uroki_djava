@@ -1,4 +1,5 @@
-package autoservice.model_a;
-
-public class Vihicle_type {
-}
+//package autoservice.model_a;
+//
+//public enum Vihicle_type {
+//    TRUCK,MOTOCICLE,CAR
+//}

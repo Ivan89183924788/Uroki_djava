@@ -1,4 +1,4 @@
-//package pizza.interfaces;
+//package autoservice.interface_a;
 //
 //public class CardPayment implements Payment {
 //    private final String cardNumber;

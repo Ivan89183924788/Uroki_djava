@@ -1,4 +1,5 @@
-package control.models;
-
-public interface Diagnosable {
-}
+//package control.models;
+//
+//public interface Diagnosable {
+//    void diagnostic();
+//}
